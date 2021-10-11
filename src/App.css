@@ -259,6 +259,31 @@ nav a.nav-link {
 
 
 
+/* ****************PROJECTS********************** */
+.cimg {
+  width: 73%;
+  height: 33rem;
+  margin-bottom: 30px;
+  margin-left: 11rem;
+ 
+  cursor: pointer;
+ 
+}
+.img-overlay{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.left-crsl {
+  margin-left: 13rem;
+  margin-top: 6rem;
+}
+.prj-outer{
+  background-color:var(--primary-dark);
+  height: 40rem;
+
+}
+
+
 /* ******************EXPERIENCE***************** */
 
 .exp-outer{
@@ -427,10 +452,11 @@ nav a.nav-link {
     margin-right: -40px;
   }
   .navbar-img{
-    top: 6px;
-    right: 61px;
+    /* top: 6px;
+    right: 61px; */
+    left: -60px;
   }
- 
+  
   .particles-class{
     display: none;
   }
@@ -464,13 +490,16 @@ nav a.nav-link {
 @media only screen and (min-width: 992px) {
   .navbar-img {
     top: 4px;
-    left: 6px;
+    left: -34px;
   }
   .name{
     left: -30px;
   }
   .outer {
     height: 92vh;
+  }
+  .skills-inner {
+    margin-left: 23%;
   }
 } 
 

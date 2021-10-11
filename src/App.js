@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Home from './Components/Home.jsx';
 import About from "./Components/About.jsx";
 import Footer from "./Components/Footer.jsx";
-// import Project from "./Components/Project.jsx";
+import Project from "./Components/Project.jsx";
 import Skills from "./Components/Skills.jsx";
 
 
@@ -40,7 +40,7 @@ function App() {
       <Navbar />
       <Home/>
       <About/>
-      {/* <Project/> */}
+      <Project/>
       <Skills/>
       <Experience/>
       <Footer style={{color:"white"}}/>
