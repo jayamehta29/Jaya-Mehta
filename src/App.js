@@ -1,9 +1,16 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Components/Navbar";
-import Header from './Components/Header';
+
+import Navbar from "./Components/Navbar.jsx";
+import Home from './Components/Home.jsx';
+import About from "./Components/About.jsx";
+import Footer from "./Components/Footer.jsx";
+// import Project from "./Components/Project.jsx";
+import Skills from "./Components/Skills.jsx";
+
 
 import Particles from "react-particles-js";
+import Experience from './Components/Experience';
 
 
 function App() {
@@ -24,14 +31,19 @@ function App() {
           type:"star",
           stroke:{
             width:0,
-            color:"#f9ab00"
+            color:"white"
             
           }
         }
       },
     }}/>
       <Navbar />
-      <Header/>
+      <Home/>
+      <About/>
+      {/* <Project/> */}
+      <Skills/>
+      <Experience/>
+      <Footer style={{color:"white"}}/>
     </>
   );
 }
