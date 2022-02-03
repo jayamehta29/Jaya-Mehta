@@ -17,34 +17,18 @@ const Skills = () => {
                     <div className="font-weight-light text-center skillTxt">and hands on experience in web development and graphic designing. </div>
                     <div className="skills-inner">
                         <div className="sright">
-                            <div className="skill">
-                                <div className="skill-icon" ><FontAwesomeIcon icon={faHtml5} /></div>
-                                <div className="skill-txt">HTML</div>
-                            </div>
-                            <div className="skill">
-                                <div className="skill-icon"><FontAwesomeIcon icon={faCss3} /></div>
-                                <div className="skill-txt">CSS</div>
-                            </div>
-                            <div className="skill">
-                                <div className="skill-icon"><FontAwesomeIcon icon={faJs} /></div>
-                                <div className="skill-txt">JS</div>
-                            </div>
-                            <div className="skill">
-                                <div className="skill-icon"><FontAwesomeIcon icon={faJava} /></div>
-                                <div className="skill-txt">JAVA</div>
-                            </div>
+                            <div className="skill" onClick={()=>window.open("https://developer.mozilla.org/en-US/docs/Web/HTML")}><FontAwesomeIcon icon={faHtml5} />HTML</div>
+                            <div className="skill" onClick={()=>window.open("https://developer.mozilla.org/en-US/docs/Web/CSS")}><FontAwesomeIcon icon={faCss3}  />CSS</div>
+                            <div className="skill" onClick={()=>window.open("https://developer.mozilla.org/en-US/docs/Web/JavaScript")}><FontAwesomeIcon icon={faJs}  />JS</div>
+                            <div className="skill" onClick={()=>window.open("https://www.pepcoding.com/resources/online-java-foundation")}><FontAwesomeIcon icon={faJava}  />JAVA</div>
                         </div>
                         <div className="sleft">
-                            <div className="skill"><FontAwesomeIcon icon={faDatabase} className="skill-icon" />MongoDB</div>
-                            <div className="skill"><FontAwesomeIcon icon={faCode} className="skill-icon" />Express</div>
-                            <div className="skill"><FontAwesomeIcon icon={faReact} className="skill-icon" />REACTJS</div>
-                            <div className="skill"><FontAwesomeIcon icon={faNodeJs} className="skill-icon" />Node js</div>
+                            <div className="skill" onClick={()=>window.open("https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_apac_india_search_core_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624347&adgroup=115749713423&gclid=Cj0KCQiArt6PBhCoARIsAMF5wagtOFVkgGCbwbETpqp9s0Jws8-M8tk3qFFoqTveNJe0kJBTWvmIh30aAu1xEALw_wcB")}><FontAwesomeIcon icon={faDatabase}  />MongoDB</div>
+                            <div className="skill" onClick={()=>window.open("https://expressjs.com/")}><FontAwesomeIcon icon={faCode}  />Express</div>
+                            <div className="skill" onClick={()=>window.open("https://reactjs.org/")}><FontAwesomeIcon icon={faReact}  />REACTJS</div>
+                            <div className="skill" onClick={()=>window.open("https://nodejs.org/en/")}><FontAwesomeIcon icon={faNodeJs}  />Node js</div>
                         </div>
-
-
                     </div>
-
-
                 </div>
             </Element>
 

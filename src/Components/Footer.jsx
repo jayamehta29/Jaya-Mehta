@@ -7,7 +7,7 @@ const Footer = () => {
 
       <footer className="page-footer">
 
-        <div className="footer-copyright text-center py-3" style={{ backgroundColor: "#363945" ,color:"white"}}>
+        <div className="footer-copyright text-center py-3" style={{ color:"white"}}>
           <div className="mb-3 flex-center" >
 
             {/* linkedin */}
@@ -16,8 +16,9 @@ const Footer = () => {
             </a>
 
             {/* mail */}
-            <a className="footer-link" href="https://www.instagram.com/jayamehta29/">
-              <SocialIcon url="https://www.instagram.com/jayamehta29/" bgColor="white" style={{ color: "white", height: "30px", width: "30px", marginRight:"10px" }} />
+            
+            <a className="footer-link" href="mailto:jayamehta29@gmail.com">
+              <SocialIcon url="mailto:jayamehta29@gmail.com" bgColor="white" style={{ color: "white", height: "30px", width: "30px", marginRight:"10px" }} />
             </a>
 
             {/* github */}
@@ -27,7 +28,7 @@ const Footer = () => {
 
           </div>
           {/* <hr></hr> */}
-          © 2021 Jaya Mehta
+          © 2022 Jaya Mehta
 
         </div>
 

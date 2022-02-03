@@ -2,18 +2,19 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { SocialIcon } from 'react-social-icons';
+
 
 import profile from "../SVG/Asset 2.svg";
 
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-inverse navbar-fixed-top navbar-expand-lg navbar-light bg-dark ">
+        
+            <nav className="navbar navbar-inverse navbar-fixed-top navbar-expand-lg bg ">
                 <div className="container">
                     <a className="navbar-brand" href="#Home">
                         <img  src={profile} className="navbar-img"/>
-                        <span className="name">JAYA MEHTA</span>
+                        <span className="name">Jaya Mehta</span>
                     </a>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +22,10 @@ const Navbar = () => {
                         <FontAwesomeIcon icon={faBars} style={{ color: "white" }} />
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse adjust" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">HOME</a>
+                                <a className="nav-link" href="#">Home</a>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -35,7 +36,7 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                     className="nav-link"
-                                >ABOUT</Link>
+                                >About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -46,7 +47,7 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                     className="nav-link"
-                                >PROJECTS</Link>
+                                >Projects</Link>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -57,7 +58,7 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                     className="nav-link"
-                                >SKILLS</Link>
+                                >Skills</Link>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -68,20 +69,8 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                     className="nav-link"
-                                >EXPERIENCE</Link>
+                                >Experience</Link>
                             </li>
-
-                            <li>
-                                <a className="nav-link" href="https://github.com/jayamehta29">
-                                    <SocialIcon url="https://github.com/jayamehta29" bgColor="white" style={{ color: "white", height: "30px", width: "30px" }} />
-                                </a>
-                            </li>
-                            <li>
-                                <a className="nav-link" href="https://linkedin.com/in/jayamehta29">
-                                    <SocialIcon url="https://linkedin.com/in/jayamehta29" bgColor="white" style={{ color: "white", height: "30px", width: "30px"}} />
-                                </a>
-                            </li>
-                            {/* </li> */}
                         </ul>
                     </div>
                 </div>
