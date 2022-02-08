@@ -169,11 +169,11 @@ h6{
 }
 
 .home_img {
-  width: 31%;
-  height: 75%;
-  position: absolute;
-  left: 20%;
-  top: 21%;
+  width: 25%;
+    height: 80%;
+    position: absolute;
+    left: 22%;
+    top: 3%;
 }
 
 /* ****************ABOUT ME************** */
@@ -296,27 +296,70 @@ h6{
 }
 
 /* ****************PROJECTS********************** */
-.cimg {
-  width: 73%;
-  height: 33rem;
-  margin-bottom: 30px;
-  margin-left: 11rem;
- 
-  cursor: pointer;
- 
+
+ .cimg {
+  position: relative;
+    left: 9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+    width: 30rem;
+    height: 25rem;
+    cursor: pointer;
 }
-.img-overlay{
+
+/* .img-overlay{
   background: rgba(0, 0, 0, 0.5);
+} */
+
+.para{
+  margin-top: 2rem;
+}
+.para>div{
+  color: #676576;
 }
 
-.left-crsl {
-  margin-left: 13rem;
-  margin-top: 6rem;
-}
-.prj-outer{
-  background-color:var(--primary-dark);
-  height: 40rem;
+.cbtn{
+  width: 10rem;
+  height: 4rem;
+  border-radius: 1rem;
+  /* background: var(--primary-blue); */
+  /* color: white; */
+  margin-top: 13%;
 
+}
+.diff-btn{
+  
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  /* margin-top: 10%; */
+  justify-content: space-between;
+  width: 21rem;
+  height: 7rem;
+  position: relative;
+}
+.cbtn:hover{
+  box-shadow: 0 0 0 3px rgba(58,112,239,0.2);
+}
+
+.prj-inner{
+  display: flex;
+}
+
+.left-crsl{
+  position: relative;
+  left: 11%;
+  margin-top: 6%;
+  margin-bottom: 8%;
+  padding: 3%;
+}
+
+.right-crsl{
+  position: relative;
+  left: 32%;
 }
 
 
@@ -557,23 +600,3 @@ h6{
 
 
 
-.left-crsl{
-  position: absolute;
-  top: 6%;
-  left: 10%;
-  color:white;
-}
-.cbtn{
-  border: 1px solid white;
-  background-color: #363945;
-  margin-right: 2rem;
-  margin-top: 2rem;
-  padding: 13px;
-  width: 13%;
-  color: white;
-  border-radius: 5px;
-}
-.diff-btn{
-  border: none;
-  background-color: #0F78AF;
-}

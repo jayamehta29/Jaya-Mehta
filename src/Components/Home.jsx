@@ -5,7 +5,10 @@ import About from "./About";
 import { SocialIcon } from 'react-social-icons';
 // import homeimg from "../SVG/myPhoto.jpeg";
 // import profile from "../SVG/home_img.svg";
-import profile from "../SVG/about_image.svg";
+// import profile from "../SVG/about_image.svg";
+import profile from "../SVG/myPhoto-removebg-preview.png";
+// import profile from "../SVG/WhatsApp_Image_2022-01-10_at_5.59.43_PM-removebg-preview.png";
+
 
 const Home = () => {
     return (
@@ -28,14 +31,17 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-            <img src={profile} className="home_img" />
+            {/* <div className="circle"> */}
+                <img src={profile} className="home_img" />
+            {/* </div> */}
+            
             {/* <img src={homeimg} className='home_img'/> */}
             <figure className="text-end myclass">
                 <p className='inner'>
                     <h1 >Hello, world!</h1>
                     <h6 className="text-end text-justify"></h6>
                     <p>
-                        <h1>I am Jaya Mehta</h1>
+                        <h1> {`{I am Jaya Mehta}`}</h1>
                         <br></br>
                         <h6>A Frontend Developer and </h6>
                         <h6>Graphic Designer based in New Delhi, India.</h6>

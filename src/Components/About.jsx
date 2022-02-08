@@ -3,9 +3,10 @@ import { Element, Link } from 'react-scroll'
 // import profile from "../../src/SVG/Asset 2.svg";
 import '../App.css';
 import Project from './Project';
-// import profile from "../SVG/about_image.svg";
+import profile from "../SVG/about_image.svg";
 
-import profile from "../SVG/home_img.svg";
+// import profile from "../SVG/home_img.svg";
+// import profile from "../SVG/myPhoto-removebg-preview.png";
 
 
 
@@ -25,8 +26,10 @@ const About = () => {
                     <div className="about-inner-left">
                         <h1>Hi, I am <b style={{ display: "block" }}> Jaya Mehta</b></h1>
                         <p className="text-justify about-txt">
-                            I am from Delhi.I am a final year student pursuing bachelors of technology in computer science from HMR Institue of Technology and Management. I have a decent knowledge of fundamental subjects of engineering.
-                            My fields and expertise lie in Frontend Development amd Graphic Designing.
+                            I am a final year student pursuing bachelors of technology in computer science. I am an innovative frontend Developer, creating amazing websites with interactive UIs, solving challenging problems and providing effective solutions.  I have a decent knowledge of fundamental subjects of engineering.
+                            My field of expertise lie in Frontend Development amd Graphic Designing. Seeking to leverage
+                            acquired skills and knowledge to effectively fulfill the
+                            requirments.
                         </p>
                         <div className="about-btns">
                             <Link
