@@ -713,6 +713,27 @@ h6{
   }
 }
 
+@media only screen and (min-width: 1000px){
+  .navbar-img {
+    top: 13px;
+    left: 4.5rem;
+  }
+
+  .navbar-brand>span {
+    margin-left: 31%;
+  }
+
+  .home-icons {
+    margin-top: 6rem;
+    margin-left: -2rem;
+  }
+
+  .home_img {
+    left: 26%;
+    top: 4%;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .about-img {
     left: 10rem;

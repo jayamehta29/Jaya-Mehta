@@ -18,27 +18,25 @@ const Home = () => {
         <motion.div className="outer" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}}>
             <div className='home-icons'>
                 <div className="icon">
-                    <a href="https://github.com/jayamehta29">
+                    {/* <a href="https://github.com/jayamehta29"> */}
                         <SocialIcon url="https://github.com/jayamehta29" bgColor="white" style={{ color: "white", height: "30px", width: "30px" }} />
-                    </a>
+                    {/* </a> */}
 
                 </div>
                 <div className="icon">
-                    <a href="https://linkedin.com/in/jayamehta29">
+                    {/* <a href="https://linkedin.com/in/jayamehta29"> */}
                         <SocialIcon url="https://linkedin.com/in/jayamehta29" bgColor="white" style={{ color: "white", height: "30px", width: "30px" }} />
-                    </a>
+                    {/* </a> */}
                 </div>
                 <div className="icon">
-                    <a className="footer-link" href="mailto:jayamehta29@gmail.com">
+                    {/* <a className="footer-link" href="mailto:jayamehta29@gmail.com"> */}
                         <SocialIcon url="mailto:jayamehta29@gmail.com" bgColor="white" style={{ color: "white", height: "30px", width: "30px", marginRight: "10px" }} />
-                    </a>
+                    {/* </a> */}
                 </div>
             </div>
-            {/* <div className="circle"> */}
+
                 <img src={profile} className="home_img" />
-            {/* </div> */}
-            
-            {/* <img src={homeimg} className='home_img'/> */}
+
             <figure className="text-end myclass">
                 <p className='inner'>
                     <h1 >Hello, world!</h1>
