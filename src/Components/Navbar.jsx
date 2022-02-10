@@ -2,19 +2,17 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
-
 import profile from "../SVG/Asset 2.svg";
 
 const Navbar = () => {
     return (
         <>
         
-            <nav className="navbar navbar-inverse navbar-fixed-top navbar-expand-lg bg ">
+            <nav className="navbar navbar-inverse  fixed-top  navbar-expand-lg bg "> 
                 <div className="container">
                     <a className="navbar-brand" href="#Home">
                         <img  src={profile} className="navbar-img"/>
-                        <span className="name">Jaya Mehta</span>
+                        <span>Jaya Mehta</span>
                     </a>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,13 +1,14 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 
+
 const Experience = () => {
     return (
         <React.Fragment>
 
-            <Element id='experience' name='Experience'>
+            <Element id='experience' name='Experience' >
                 <div className="exp-outer">
-                    <h1><b style={{ display: "block", textAlign: "center", marginBottom: "1rem",  marginTop: "-1px" }}>Internship Experience</b></h1>
+                    <h1><b style={{ display: "block", textAlign: "center",  marginTop: "4rem" }}>Internship Experience</b></h1>
                     <div className="timeline">
                         <ul>
                             <li>

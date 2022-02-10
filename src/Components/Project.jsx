@@ -3,8 +3,6 @@ import { Element } from 'react-scroll'
 import { Carousel } from 'react-bootstrap';
 import prj1 from "../prj1.jpg";
 import prj2 from "../prj2.jpg";
-import { Link } from 'react-scroll';
-import { faTruckMonster } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from "@fortawesome/free-solid-svg-icons"
 
@@ -12,8 +10,8 @@ const Project = () => {
     return (
         <React.Fragment>
 
-            <Element id='project' name='Project'>
-                <h1 style={{ textAlign: "center" }}>PROJECTS</h1>
+            <Element id='project' name='Project' >
+                <h1 style={{ textAlign: "center", marginTop: "2rem" }}>PROJECTS</h1>
                 <Carousel style={{ backgroundColor: "#212529" }} slide={true} fade={false}>
                     <Carousel.Item>
                         <div className="prj-inner">

@@ -1,12 +1,9 @@
 import React from 'react'
 import { Element, Link } from 'react-scroll'
-// import profile from "../../src/SVG/Asset 2.svg";
 import '../App.css';
 import Project from './Project';
 import profile from "../SVG/about_image.svg";
 
-// import profile from "../SVG/home_img.svg";
-// import profile from "../SVG/myPhoto-removebg-preview.png";
 
 
 
@@ -17,7 +14,7 @@ const About = () => {
 
             <Element id='about' name='About'>
                 <div className="about-heading-txt">
-                    <h1 style={{ display: "block" }}><center>ABOUT ME</center> </h1>
+                    <h1><center>ABOUT ME</center> </h1>
                 </div>
 
                 <div className="about-outer">

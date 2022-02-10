@@ -9,10 +9,13 @@ import { SocialIcon } from 'react-social-icons';
 import profile from "../SVG/myPhoto-removebg-preview.png";
 // import profile from "../SVG/WhatsApp_Image_2022-01-10_at_5.59.43_PM-removebg-preview.png";
 
+import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
+// import { Opacity } from 'tsparticles/Options/Classes/Particles/Opacity/Opacity';
+
 
 const Home = () => {
     return (
-        <div className="outer">
+        <motion.div className="outer" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}}>
             <div className='home-icons'>
                 <div className="icon">
                     <a href="https://github.com/jayamehta29">
@@ -69,7 +72,7 @@ const Home = () => {
                 </p>
 
             </figure>
-        </div>
+        </motion.div>
     )
 }
 

@@ -6,7 +6,6 @@ const Footer = () => {
     <div>
 
       <footer className="page-footer">
-
         <div className="footer-copyright text-center py-3" style={{ color:"white"}}>
           <div className="mb-3 flex-center" >
 
@@ -31,8 +30,6 @@ const Footer = () => {
           © 2022 Jaya Mehta
 
         </div>
-
-
       </footer>
 
     </div>

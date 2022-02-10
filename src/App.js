@@ -1,6 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 import Navbar from "./Components/Navbar.jsx";
 import Home from './Components/Home.jsx';
 import About from "./Components/About.jsx";
@@ -10,12 +11,13 @@ import Skills from "./Components/Skills.jsx";
 import Experience from './Components/Experience';
 
 
+
 function App() {
   return (
     <>
       <Navbar />
       <Home/>
-      <About/>
+      <About />
       <Project/>
       <Skills/>
       <Experience/>

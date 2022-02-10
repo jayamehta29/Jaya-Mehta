@@ -23,9 +23,6 @@ body {
     transition: opacity 0.5s;
     opacity: 1;
 }
-html{
-  scroll-behavior: smooth;
-}
 
 
 /* ****************NAVBAR***************** */
@@ -68,7 +65,7 @@ nav a.nav-link {
     margin-left: 5%;;
 }
 .navbar-brand>span{
-  margin-left: -13%;
+  margin-left: 16%;
 }
 
 .navbar-nav>li>a:focus {
@@ -79,11 +76,11 @@ nav a.nav-link {
     border-top: 3px solid var(--primary-blue)!important;
 }
 
-/* @media (max-width:768) {
+@media (max-width:768) {
     .navbar-brand {
         width: 7rem;
     }
-} */
+}
 
 .bg{
   background-color: var(--primary-dark);
@@ -115,7 +112,7 @@ nav a.nav-link {
   /* width: 10rem; */
   position: absolute;
   right: 9%;
-  top: 11rem;
+  top: 28%;
 
 }
 
@@ -131,14 +128,14 @@ h6{
   margin-top: 5%;
 }
 
-/* @media (max-width:768) {
+@media (max-width:768) {
     .inner h1 {
         font-size: 1.5rem !important;
     }
     .type-text {
         font-size: 1.3rem !important;
     }
-} */
+}
 
 
 /* *****yped-text ***************/
@@ -163,9 +160,10 @@ h6{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  /* width: 20rem; */
+  /* margin-left: 10%; */
   height: 2rem;
-  margin-right: 45rem;
-  margin-top: 5rem;
+  margin-right: 7%;
 }
 
 .icon{
@@ -173,11 +171,11 @@ h6{
 }
 
 .home_img {
-  width: 17rem;
-  height: 32rem;
-  position: absolute;
-  left: 25%;
-  top: 3%;
+  width: 25%;
+    height: 80%;
+    position: absolute;
+    left: 22%;
+    top: 3%;
 }
 
 /* ****************ABOUT ME************** */
@@ -233,13 +231,6 @@ h6{
 
 .about-heading-txt{
   background-color: var(--primary-dark);
-}
-.about-heading-txt>h1{
-  display: block;
-}
-
-.about-heading-txt>h1>center{
-  margin-top:3rem;
 }
 
 
@@ -507,7 +498,7 @@ h6{
     .timeline ul li:nth-child(odd),
     .timeline ul li:nth-child(even){
       width:100%;
-       text-align:left;
+      text-align:left;
      padding-left:50px; 
     }
     
@@ -533,70 +524,24 @@ h6{
   
     
   }
-  
-  .page-footer{
-    color: var(--primary-white);
-  }
-
-
 
   /* ************media queries**************** */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
   .navbar-light .navbar-toggler{
     margin-right: -40px;
   }
-
   .navbar-img{
+    /* top: 6px;
+    right: 61px; */
     left: -60px;
   }
-
-  .navbar-brand>span {
-    margin-left: 19%;
+  
+  .particles-class{
+    display: none;
   }
-
-  .navbar-nav>li>a {
-    margin-top: 2rem;
-  }
-
-.home_img {
-  width: 24%;
-  height: 24%;
- 
-  left: 26%;
-  top: 2%;
-}
-
-.home-icons{
-  margin-left: 1%;
-}
-
-.inner{
-  right: 15%;
-    top: 9%;
-}
-
-.about-img{
-  left: 2rem;
-}
-
-.cimg {
-  left: 2%;
-  width: 22rem;
-  height: 22rem;
-}
-
-.btns{
-  width: 21rem;
-  height: 7rem;
-}
-
-.para{
-  font-size: 2px;
-}
-
-.outer{
+  .outer{
     height: 37vh;
   }
   .myclass {
@@ -615,59 +560,12 @@ h6{
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .navbar-nav {
-    margin-top: 2rem;
+@media only screen and (max-width: 768px) {
+  .inner{
+    top: 73px;
+    right: 100px;
   }
-
-  .navbar-brand {
-    margin-left: -1%;
-  }
-  
-  .navbar-toggler{
-    margin-right: -3rem;
-  }
-
-  .home-icons {
-    margin-right: 29rem;
-    margin-top: 21rem;
-  }
-  
-  .about-heading-txt>h1>center{
-    margin-top: 17rem;
-  }
-  .about-inner-left {
-    width: 50%;
-    margin-left: 2rem;
-  }
-
-  .about-img {
-    left: 4rem;
-  }
-
-  .cimg {
-    margin-top: 8%;
-    width: 21rem;
-    height: 18rem;
-  }
-
-  .skills-inner {
-    margin-left: 15%;
-  }
-
-  .timeline:before {
-    top: -13px;
-    height: 96%;
-  }
-
-  .page-footer {
-    color: var(--primary-white);
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-}
+} 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -682,92 +580,24 @@ h6{
     height: 100vh;
   }
   .skills-inner {
-    margin-left: 16%;
+    margin-left: 23%;
   }
-  .home-icons{
-    margin-top: 4rem;
-  }
-  .about-img {
-    left: 5rem;
-  }
-
-  .cimg {
-    left: 6%;
-    margin-top: 7%;
-    width: 20rem;
-    height: 19rem;
-  }
-
-  .left-crsl {
-    left: 9%;
-  }
-  .page-footer {
-    color: var(--primary-white);
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .timeline:before {
-    height: 96%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .about-img {
-    left: 10rem;
-    top: 2rem;
-  }
-  
-  .left-crsl {
-    left: 15%;
-  }
-  .cimg {
-    left: 15%;
-    width: 24rem;
-    height: 21rem;
-  }
-
-  .skills-inner {
-    margin-left: 22%;
-  }
-  .timeline:before {
-    top: -17px;
-  }
-}
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1281px) {
   .navbar-img {
-    /* top: 3px; */
-    left: 3rem;
+    top: 3px;
+    left: -4px;
   }
-
-  .navbar-brand>span {
-    margin-left: 24%;
-  }
-
-  .home-icons {
-    margin-right: 42rem;
-    margin-top: 8rem;
-  }
-  
-  .about-img {
-    left: 8rem;
-  }
-
-  .cimg {
-    margin-top: 7%;
-    width: 24rem;
-    height: 21rem;
-  }
-
-  .skills-inner {
-    margin-left: 23%;
-  }
-
 }
 
+
+/* .page-footer{
+  background-color: #0D0D1C;
+  width: 100%;
+  height: 10vh;
+} */
 
 
 
