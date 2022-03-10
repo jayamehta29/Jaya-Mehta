@@ -14,14 +14,14 @@ const About = () => {
 
             <Element id='about' name='About'>
                 <div className="about-heading-txt">
-                    <h1><center>ABOUT ME</center> </h1>
+                    {/* <h1><center>ABOUT ME</center> </h1> */}
                 </div>
 
                 <div className="about-outer">
 
 
                     <div className="about-inner-left">
-                        <h1>Hi, I am <b style={{ display: "block" }}> Jaya Mehta</b></h1>
+                        <h1><b style={{ display: "block" }}> ABOUT ME</b></h1>
                         <p className="text-justify about-txt">
                             I am a final year student pursuing bachelors of technology in computer science. I am an innovative frontend Developer, creating amazing websites with interactive UIs, solving challenging problems and providing effective solutions.  I have a decent knowledge of fundamental subjects of engineering.
                             My field of expertise lie in Frontend Development amd Graphic Designing. Seeking to leverage
